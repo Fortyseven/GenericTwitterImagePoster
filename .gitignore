@@ -1,0 +1,5 @@
+.vscode
+venv
+/config.json
+/metadata.json
+/frames

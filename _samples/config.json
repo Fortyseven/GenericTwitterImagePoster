@@ -1,0 +1,10 @@
+{
+    "frames_path": "frames",
+    "metadata_file": "metadata.json",
+    "creds": {
+        "access_token": "XXX",
+        "access_secret": "XXX",
+        "consumer_key": "XXX",
+        "consumer_secret": "XXX"
+    }
+}
