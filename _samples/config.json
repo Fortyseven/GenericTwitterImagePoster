@@ -1,6 +1,7 @@
 {
     "frames_path": "frames",
     "metadata_file": "metadata.json",
+    "meta_reply": false,
     "creds": {
         "access_token": "XXX",
         "access_secret": "XXX",
