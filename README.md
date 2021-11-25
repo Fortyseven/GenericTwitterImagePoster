@@ -62,13 +62,13 @@ The `metadata.json` file looks like this:
 {
     "template": "From ep {{id}}: {{title}} (First aired: {{aired}}, Frame #{{frame_id}})",
     "entries": {
-        "0x00": {
-            "title": "Max Headroom: 20 Minutes Into the Future (TV Movie)",
+        "1x01": {
+            "title": "The Addams Family Goes to School",
             "imdb": "https://www.imdb.com/title/tt0089568/",
             "aired": "1985-Apr-04"
         },
-        "1x01": {
-            "title": "Blipverts",
+        "1x02": {
+            "title": "Morticia and the Psychiatrist",
             "imdb": "https://www.imdb.com/title/tt0644551/",
             "aired": "1987-Mar-31"
         },
