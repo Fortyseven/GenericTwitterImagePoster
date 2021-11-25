@@ -23,9 +23,21 @@ then
 2. Modify `config.json` to include your credentials as provided by the developer
    dashboard for your account.
 
+    - The `meta_reply` will turn on/off the tweet reply.
+        - Not sure why this necessitated a separate config value. Could probably just be
+          controlled by the existence of `reply_template` over in metadata. But instead I'll
+          write this here to remind myself to reconsider it.
+
 3. Optionally modify `metadata.json` with whatever follow-up details you want replied
    to the image tweet. If `metadata_file` or the file it points to is missing, this
    step will be skipped.
+
+    - Also in `metadata.json`...
+        - `post_template`: if present, text attached to the primary image post (leave blank for _docviagra's_ patented "clean image bot vibe")
+        - `alt_template`: if present, text for the descriptive "alt" text for the image
+        - `reply_template`: if present, text for the follow-up reply tweet
+
+All templates allow for simple templating using the `{{{key}}}` format. Just look at the examples. Use the force. You got this.
 
 ## Extracting your media (an example)
 
